@@ -11,6 +11,11 @@
 		C4FF3815292134910074698F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3814292134910074698F /* ContentView.swift */; };
 		C4FF3817292134930074698F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3816292134930074698F /* Assets.xcassets */; };
 		C4FF381A292134930074698F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3819292134930074698F /* Preview Assets.xcassets */; };
+		C4FF3822292136A50074698F /* Modifier1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3821292136A50074698F /* Modifier1.swift */; };
+		C4FF3824292137860074698F /* Modifier2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3823292137860074698F /* Modifier2.swift */; };
+		C4FF38262921382D0074698F /* Modifier3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF38252921382D0074698F /* Modifier3.swift */; };
+		C4FF3828292138E60074698F /* Modifier4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3827292138E60074698F /* Modifier4.swift */; };
+		C4FF382A29213B600074698F /* Modifier5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF382929213B600074698F /* Modifier5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C4FF3814292134910074698F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4FF3816292134930074698F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4FF3819292134930074698F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4FF3821292136A50074698F /* Modifier1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier1.swift; sourceTree = "<group>"; };
+		C4FF3823292137860074698F /* Modifier2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier2.swift; sourceTree = "<group>"; };
+		C4FF38252921382D0074698F /* Modifier3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier3.swift; sourceTree = "<group>"; };
+		C4FF3827292138E60074698F /* Modifier4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier4.swift; sourceTree = "<group>"; };
+		C4FF382929213B600074698F /* Modifier5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		C4FF3811292134910074698F /* ContentTransitionP2 */ = {
 			isa = PBXGroup;
 			children = (
+				C4FF3820292136970074698F /* View */,
 				C4FF3812292134910074698F /* ContentTransitionP2App.swift */,
 				C4FF3814292134910074698F /* ContentView.swift */,
 				C4FF3816292134930074698F /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				C4FF3819292134930074698F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4FF3820292136970074698F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4FF3821292136A50074698F /* Modifier1.swift */,
+				C4FF3823292137860074698F /* Modifier2.swift */,
+				C4FF38252921382D0074698F /* Modifier3.swift */,
+				C4FF3827292138E60074698F /* Modifier4.swift */,
+				C4FF382929213B600074698F /* Modifier5.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4FF3815292134910074698F /* ContentView.swift in Sources */,
+				C4FF3828292138E60074698F /* Modifier4.swift in Sources */,
 				C4FF3813292134910074698F /* ContentTransitionP2App.swift in Sources */,
+				C4FF3822292136A50074698F /* Modifier1.swift in Sources */,
+				C4FF38262921382D0074698F /* Modifier3.swift in Sources */,
+				C4FF382A29213B600074698F /* Modifier5.swift in Sources */,
+				C4FF3824292137860074698F /* Modifier2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
